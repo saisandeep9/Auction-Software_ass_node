@@ -5,9 +5,7 @@ const _ = require("lodash");
 const { Category } = require("../models/category");
 
 app.post("/", async (req, res) => {
-  //   const error = {};
-
-  // if (error) return res.status(400).send(error.details[0].message);
+ 
   let category = await Category.findOne({
     categoryName: req.body.categoryName,
   });

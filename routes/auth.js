@@ -25,7 +25,6 @@ app.post("/auth", async (req, res) => {
 
   const token = user.generateAuthToken();
   res.header("x-auth-token", token).send(user);
-  //   res.send(token);
 
   function validate(req) {
     const schema = {

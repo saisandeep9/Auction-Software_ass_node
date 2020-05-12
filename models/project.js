@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 const Joi = require("joi");
-// const Joi = require("@hapi/joi");
-
 const Schema = mongoose.Schema;
 
 const projectSchema = new mongoose.Schema({
