@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "jwtPrivateKey",
+  "db": {
+    "host": "mongodb://localhost/auction_software_db"
+  }
+}
