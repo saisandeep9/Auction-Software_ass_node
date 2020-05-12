@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "jwtPrivateKey",
   "db": {
-    "host": "mongodb://localhost/auction_software_db"
+    "host": "mongodb+srv://admin:sand12345678@e-commerce-4fq2m.mongodb.net/auction_software_db?retryWrites=true&w=majority/"
   }
 }
